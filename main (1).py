@@ -1,10 +1,4 @@
-#1.1implement a recursive function to calculate the factorial of a given number
-def fact_rec(n):
-  if n==0 or n==1:
-    return 1
-  else:
-    return n*fact_rec(n-1)
+l1=['shoes','cars','laptop']
 
-number=int(input("Enter a value:"))
-res=fact_rec(number)
-print("The factorial of {} is{}.". format (number,res))
+for i,j in enumerate(l1):
+  print(i,j)
